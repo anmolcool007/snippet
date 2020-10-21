@@ -5,8 +5,8 @@ const select = document.getElementById('animationSelect'),
 	animationName = document.getElementById('animationName'),
 	userName = document.getElementById('userName');
 
-/**
- * Set the title, author and name of the selected animation.
+/*
+ selectors
  */
 function getAnimationName(rand) {
 	rand = rand || false;
@@ -23,12 +23,12 @@ function getAnimationName(rand) {
 	userName.href = dataLink;
 	target.classList.add(value);
 
-	// If rand is true, also change the selected value on the select
+	// selected designs
 	if (rand) select.selectedIndex = index;
 }
 
 /**
- * Sort all animations by name.
+ * select display
  * @param { Array } animations the animations from 'window.animations'.
  */
 function sortAnimationByName(animations) {
@@ -41,7 +41,7 @@ function sortAnimationByName(animations) {
 }
 
 /**
- * Inject the css file containing the animation properties.
+ * css file injection
  * @param { string } animationName the animation file name.
  */
 function injectStylesheet(animationName) {
@@ -52,8 +52,8 @@ function injectStylesheet(animationName) {
 }
 
 /**
- * Insert a new option to the select with the animation data.
- * @param { Object } animation the object containing the animation name and the author.
+ *display of contributor url
+ * @param { Object } animation the object containing the animation name and the contributor.
  */
 function insertAnimationOptionToSelect(animation) {
 	const animationWithAuthorName = animation.name + ' · ' + animation.author;
