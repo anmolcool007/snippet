@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+}
+body {
+  color: #555;
+  background: #222;
+  text-align: center;
+  font-family: 'Roboto Mono';
+  padding: 1em;
+}
+h1 {
+  font-size: 2.2em;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #343a40;
+color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #343a40;
+color: white;
+/* font-weight: bold; */
+font-size: 7rem;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}

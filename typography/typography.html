@@ -1,0 +1,52 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Typography</title>
+		<link rel="stylesheet" href="assets/style.css" />
+	</head>
+
+	<body>
+        <div class="topnav">
+            <a class="active" href="#home">Typography</a>
+            <div class="topnav-right">
+              <a href="#search">Search</a>
+              <a href="#about">About</a>
+            </div>
+          </div>
+        
+        <h4>Let's Snip !!</h4>
+        <section class="section text-center">
+
+
+
+            <h1 id="target" class="title scare" data-text="Hacktoberfest animations">
+				Hacktoberfest animations
+			</h1>
+			<!--  here the animations will be inserted -->
+			<select id="animationSelect"></select>
+			<!--  here we show the animation name and who contribute with it -->
+			<div id="detail_elements" class="padding white max-w">
+				<p>Animation name: <span id="animationName"></span></p>
+				<p>
+					Submitted by:
+					<a
+						target="_blank"
+						style="color: #00ffff"
+						rel="noopener noreferrer"
+						id="userName"
+					></a>
+				</p>
+			</div>
+
+
+
+
+        </section>
+        <script src="contributors.js"></script>
+	</body>
+</html>
