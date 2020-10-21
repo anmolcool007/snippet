@@ -1,0 +1,18 @@
+/*
+    author: https://github.com/anmolcool007
+ */
+
+ @keyframes demo {
+	0% {
+		transform: translateY(-200%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.demo {
+	color: #f7054f;
+	display: block;
+	animation: bounce 0.5s alternate infinite ease-in;
+}
