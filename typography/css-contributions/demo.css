@@ -12,7 +12,8 @@
 }
 
 .demo {
-	color: #f7054f;
-	display: block;
-	animation: bounce 0.5s alternate infinite ease-in;
+	color: white;
+    display: block;
+    font-style: italic;
+    background-color: grey;
 }
