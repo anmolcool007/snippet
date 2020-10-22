@@ -47,7 +47,7 @@ function sortAnimationByName(animations) {
 function injectStylesheet(animationName) {
 	const link = document.createElement('link');
 	link.rel = 'stylesheet';
-	link.href = 'css-contributions/' + animationName + '.css';
+	link.href = './css-contributions/' + animationName + '.css';
 	document.head.appendChild(link);
 }
 
