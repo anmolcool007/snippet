@@ -1,7 +1,6 @@
 <p style="text-align:center;" align="center">
   <img align="center" src="https://github.com/anmolcool007/snippet/blob/main/display/snippetbg.jpg" width="40%" height="40%"/></p>
-
----
+<br>
 
 ## About Snippet
 
