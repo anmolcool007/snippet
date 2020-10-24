@@ -45,7 +45,7 @@
     ```
 - Pull from Upstream and create a new branch
     ```
-    git pull upstream master
+    git pull upstream main
     git checkout -b BRANCH_NAME
     ```
 - Make the desired changes in the code.
