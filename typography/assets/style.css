@@ -71,6 +71,9 @@ select::-ms-expand {
 
 /* Add a black background color to the top navigation */
 .topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: transparent;
   overflow: hidden;
 }
@@ -104,8 +107,20 @@ select::-ms-expand {
   float: right;
 }
 
-/* Footer */
+/* For the headings within the typography panels */
+h1#target {
+  font-size: 8vw;
+}
 
+/* Media query to handle responsive logo */
+@media only screen and (max-width: 860px) {
+  /* Converting font size of logo to use "vw" for responsiveness */
+  .topnav a.active {
+    font-size: 8vw;
+  }
+}
+
+/* Footer */
 #footer {
   background-image: -moz-linear-gradient(
     top,
