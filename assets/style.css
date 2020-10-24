@@ -139,7 +139,7 @@ float: right;
   height: 6em;
   left: 0;
   line-height: 8em;
-  position: absolute;
   text-align: center;
   width: 100%;
+  position: fixed;
 }
