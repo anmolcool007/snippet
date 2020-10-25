@@ -1,0 +1,42 @@
+/*
+    author: https://github.com/harjotkarwal
+ */
+
+.rainbow {
+    display: block;
+    font-style: bold;
+    animation: rainbow 7s forwards linear;
+}
+
+
+@keyframes rainbow {
+	0% {
+		color: violet;
+	}
+
+	15% {
+		color: indigo;
+	}
+
+	30% {
+		color: blue;
+	}
+
+	45% {
+		color: green;
+	}
+
+	60% {
+		color: yellow;
+	}
+
+	75% {
+		color: orange;
+	}
+
+	100% {
+		color: red;
+	}
+}
+
+
