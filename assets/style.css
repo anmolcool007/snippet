@@ -134,6 +134,9 @@ h1 {
 
 /* Media query to handle responsive logo */
 @media only screen and (max-width: 700px) {
+  .flip {
+    width: 100%;
+  }
   /* Converting font size of logo to use "vw" for responsiveness */
   .topnav a.active {
     font-size: 8vw;

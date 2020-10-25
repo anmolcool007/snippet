@@ -79,7 +79,7 @@ select::-ms-expand {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav * a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -105,13 +105,13 @@ select::-ms-expand {
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+  display: flex;
 }
 
 /* For the headings within the typography panels */
 h1#target {
   font-size: 8vw;
 }
-
 /* Media query to handle responsive logo */
 @media only screen and (max-width: 860px) {
   /* Converting font size of logo to use "vw" for responsiveness */
