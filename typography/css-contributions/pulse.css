@@ -1,0 +1,17 @@
+/*
+    author: https://github.com/harjotkarwal
+ */
+
+.pulse {
+	color: #fff;
+    display: block;
+    font-style: italic;
+    animation: pulse 1s infinite ease-out;
+}
+
+@keyframes pulse {
+    20% { transform: scale(1);}
+    28% { transform: scale(0.8);}
+    34% { transform: scale(0.9);}
+}
+
